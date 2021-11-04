@@ -2,6 +2,10 @@
     font-family: Lato, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .first {
     background-color: #1F2937;
     color: white;
@@ -53,6 +57,10 @@ button {
     padding:8px 25px;
 }
 
+button:hover{
+    background-color: #0046b8;
+}
+
 #code-img {
     width: 300px;
 }
@@ -97,4 +105,39 @@ blockquote {
     font-weight: 200;
     color: #1F2937;
     max-width: 900px;
+}
+
+.cta {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sign-up{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cta-button {
+    border-style: solid;
+    border-color: white;
+}
+
+.cta-button:hover{
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
 }
